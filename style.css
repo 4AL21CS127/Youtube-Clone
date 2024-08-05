@@ -1,0 +1,154 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 340px;
+    border-radius: 8px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 20px 80px;
+}
+
+.t1 {
+    width: 30px;
+    border-radius: 50px;
+    margin-right: 14px;
+    margin-top: -15px;
+}
+
+p {
+    color: white;
+    margin: 0;
+}
+
+.head {
+    margin-top: 9px;
+    margin-bottom: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.channel {
+    margin-top: 6px;
+    margin-bottom: 5px;
+    color: #AAAAAA;
+    font-size: 13px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.views {
+    color: #AAAAAA;
+    font-size: 13px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.video-info {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.container:hover{
+    cursor: pointer;
+}
+
+.headbar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+
+.search {
+    background-color: #181818; 
+    color: #fff; 
+    border: 1px solid #555555; 
+    padding: 8px 20px; /* Simplified padding */
+    padding-right: 300px;
+    border-radius: 20px; 
+    font-size: 16px; 
+    flex: 1; /* Allows the search bar to take up remaining space */
+}
+
+.search_submit {
+    background-color: #181818; 
+    color: #fff; 
+    border: 1px solid #555555; 
+    padding: 8px 10px; /* Simplified padding */
+    border-radius: 10px; 
+    font-size: 16px; 
+    margin-left: 10px;
+    margin-right: 200px;
+    cursor: pointer;
+}
+
+.search_submit:hover {
+    background-color: white;
+    color: black;
+}
+
+.voice, .create, .noti, .my_account, .youtube {
+    width: 22px;
+    margin-left: 20px;
+}
+
+a {
+    background-color: #FFFFFF1A; 
+    color: white;
+    border-radius: 6px;
+    border: none;
+    font-size: 13px;
+    padding: 6px 12px;
+    margin-right: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+.btns {
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+.s1 {
+    width: 22px;
+    margin-right: 0px;
+}
+
+.youtube {
+    margin-right: 380px;
+    width: 30px;
+}
+
+.voice {
+    margin-right: 20px;
+}
+
+.btn {
+    background-color: white;
+    color: white;
+}
+
+
+
+
+
